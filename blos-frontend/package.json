@@ -1,0 +1,38 @@
+{
+  "name": "blos-frontend",
+  "version": "1.0.0",
+  "description": "BLOS Frontend MVP",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "Luc",
+  "license": "MIT",
+  "dependencies": {
+    "@radix-ui/react-dropdown-menu": "^2.1.14",
+    "@radix-ui/react-popover": "^1.1.13",
+    "@radix-ui/react-slot": "^1.2.2",
+    "@radix-ui/react-toggle": "^1.1.8",
+    "@radix-ui/react-toggle-group": "^1.1.9",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.511.0",
+    "next": "^15.3.2",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "shadcn": "^2.5.0",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.18",
+    "@types/react": "19.1.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "5.8.3"
+  }
+}
